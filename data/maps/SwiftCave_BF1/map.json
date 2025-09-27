@@ -1,0 +1,63 @@
+{
+  "id": "MAP_SWIFT_CAVE_BF1",
+  "name": "SwiftCave_BF1",
+  "layout": "LAYOUT_SWIFT_CAVE_BF1",
+  "music": "MUS_CAVE_OF_ORIGIN",
+  "region_map_section": "MAPSEC_ABANDONED_SHIP",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 28,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_SWIFT_CAVE_2F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 21,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_SWIFT_CAVE_BF2",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 29,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_SWIFT_CAVE_F2_2",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 34,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_SWIFT_CAVE_BF1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 6,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE3",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_SWIFT_CAVE_F2_2",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

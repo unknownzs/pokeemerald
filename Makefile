@@ -115,10 +115,10 @@ INCLUDE_SCANINC_ARGS := $(INCLUDE_DIRS:%=-I %)
 O_LEVEL ?= 2
 CPPFLAGS := $(INCLUDE_CPP_ARGS) -Wno-trigraphs -DMODERN=$(MODERN)
 ifeq ($(MODERN),0)
-  CPPFLAGS += -I tools/agbcc/include -I tools/agbcc -nostdinc -undef -std=gnu89
-  CC1 := tools/agbcc/bin/agbcc$(EXE)
+  CPPFLAGS += -I arm-none-eabi-gcc -I arm-none-eabi-gcc -nostdinc -undef -std=gnu89
+  CC1 := arm-none-eabi-gcc$(EXE)
   override CFLAGS += -mthumb-interwork -Wimplicit -Wparentheses -Werror -O$(O_LEVEL) -fhex-asm -g
-  LIBPATH := -L ../../tools/agbcc/lib
+  LIBPATH := -L arm-none-eabi-gcc
   LIB := $(LIBPATH) -lgcc -lc -L../../libagbsyscall -lagbsyscall
 else
   # Note: The makefile must be set up to not call these if modern == 0
