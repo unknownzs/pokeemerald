@@ -1230,6 +1230,42 @@
       "y": 4,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_IJBURG",
+      "name": "IJBURG",
+      "x": 8,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_HEERENVEEN",
+      "name": "HEERENVEEN",
+      "x": 8,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_LEIDEN",
+      "name": "LEIDEN",
+      "x": 8,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_GORREDIJK",
+      "name": "GORREDIJK",
+      "x": 8,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_JORDAAN",
+      "name": "JORDAAN"
     }
   ]
 }

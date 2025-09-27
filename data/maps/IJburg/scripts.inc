@@ -1,3 +1,4 @@
+.global IJburg_MapScripts
 IJburg_MapScripts::
 	.byte 0
 
@@ -25,3 +26,4 @@ IJburg_Text_GardenSign:
 IJburg_Text_IJburgSign:
 	.string "IJburg"
 	.string "Or Almere South South"
+	
