@@ -4620,6 +4620,26 @@
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Leiden/border.bin",
       "blockdata_filepath": "data/layouts/Leiden/map.bin"
+    },
+    {
+      "id": "LAYOUT_IJBURG_TOMS_HOUSE_INDOOR",
+      "name": "IJburg_TomsHouse_Indoor_Layout",
+      "width": 11,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/IJburg_TomsHouse_Indoor/border.bin",
+      "blockdata_filepath": "data/layouts/IJburg_TomsHouse_Indoor/map.bin"
+    },
+    {
+      "id": "LAYOUT_IJBURG_FRENKIES_HOUSE_INDOOR",
+      "name": "IJburg_FrenkiesHouse_Indoor_Layout",
+      "width": 15,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/IJburg_FrenkiesHouse_Indoor/border.bin",
+      "blockdata_filepath": "data/layouts/IJburg_FrenkiesHouse_Indoor/map.bin"
     }
   ]
 }

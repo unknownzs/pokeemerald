@@ -643,5 +643,8 @@
   "gMapGroup_IndoorRoute124": [
     "Route124_DivingTreasureHuntersHouse"
   ],
-  "gMapGroup_IJburg_Inside": []
+  "gMapGroup_IJburg_Inside": [
+    "IJburg_TomsHouse_Indoor",
+    "IJburg_FrenkiesHouse_Indoor"
+  ]
 }

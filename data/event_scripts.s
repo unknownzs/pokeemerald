@@ -1078,3 +1078,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/SwiftCave_2F/scripts.inc"
 	.include "data/maps/SwiftCave_BF2/scripts.inc"
 	.include "data/maps/SwiftCave_F2_2/scripts.inc"
+
+	.include "data/maps/IJburg_TomsHouse_Indoor/scripts.inc"
+
+	.include "data/maps/IJburg_FrenkiesHouse_Indoor/scripts.inc"
